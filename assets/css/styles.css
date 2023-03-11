@@ -1,0 +1,54 @@
+:root {
+    --header-footer-color: #ee1515;
+    --background-color: #f0f0f0;
+    --box-color: #222224;
+}
+
+* {
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+header, footer {
+    background-color: var(--header-footer-color);
+    text-align: center;
+    padding: 10px 0;
+    color: var(--background-color);
+    text-shadow: 2px 3px 2px black;
+    -webkit-text-stroke: 0.5px black;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top : 5px;
+}
+
+.border {
+    background-color: var(--box-color);
+    padding: 20px 0;
+}
+
+.guess {
+    border: 1px solid black;
+    padding: 10px 0;
+    font-size: 2.5rem;
+}
+
+.guessing-field, .scoreboard {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.guessing-field {
+    margin-bottom: 10px;
+}
